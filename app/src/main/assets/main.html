@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Draggable - Default functionality</title>
+    <!--
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    -->
+    <style>
+  .draggable { width: 150px; height: 100px; padding: 0.5em; border: 1px solid black; }
+  #table {
+  width: 320px;
+  height: 160px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    width: 80px; height: 40px;
+  }
+
+  img {
+  border: 2px solid black;
+  }
+  </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Touch Punch enables jQuery touch events in mobile devices,
+    downloaded from: http://touchpunch.furf.com/ -->
+    <script src="jquery.ui.touch-punch.js"></script>
+    <script src="puzzle.js"></script>
+</head>
+<body>
+<div id="draggable"></div>
+<div style="text-align:center;">
+    <table id="table" style="margin: 0 auto;" class "ui-state-highlight">
+    </table>
+    <table id="puzzle" style="margin: 0 auto;" class "ui-state-highlight">
+    </table>
+</div>
+</body>
+</html>
